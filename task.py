@@ -80,6 +80,7 @@ def get_important_features(df, n_features):
 
     top_features_ints = list(map(int, top_features))
     top_features_ints.sort()
+    print(f'top features are: {top_features_ints}')
 
     return top_features_ints
 
